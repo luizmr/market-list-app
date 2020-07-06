@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+        />
+        <!-- google font -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"
+        />
+        <!-- styles -->
+        <link rel="stylesheet" href="./css/styles.css" />
+
+        <title>Market List</title>
+    </head>
+    <body>
+        <section class="section-center">
+            <!-- form -->
+            <form class="market-form">
+                <p class="alert"></p>
+                <h3>
+                    MARKET LIST
+                </h3>
+                <div class="form-control">
+                    <input type="text" id="market" placeholder="e.g. eggs" />
+                    <button type="submit" class="submit-btn">submit</button>
+                </div>
+            </form>
+            <!-- list -->
+            <div class="market-container">
+                <div class="market-list"></div>
+                <!-- button -->
+                <button class="clear-btn">clear items</button>
+            </div>
+        </section>
+        <!-- javascript -->
+        <script src="/app.js"></script>
+    </body>
+</html>
